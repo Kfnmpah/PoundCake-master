@@ -75,7 +75,7 @@
 	</div>	
 </div>
 
-<div id="info">Use your arrow keys to control Jay-Z, and DON'T let any of the cakes get away!</div>
+<div id="info">Use your arrow keys to control Bazger, and DON'T let any of the cakes get away!</div>
 
 
 </body>
