@@ -1,0 +1,142 @@
+@font-face
+{
+	font-family: minecraftia;
+	src: url(../assets/Minecraftia.ttf);
+}
+
+*{
+	/* Removes Mobile Highlight */ 
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: minecraftia;
+}
+
+.cake-canvas{
+	margin-top:10%;
+	width:50%;
+	height:50%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#lives{
+	width:200px;
+	height:45px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+
+#info{
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+}
+
+.life{
+	background-image: url(../assets/cake.png);
+	width:40px;
+	height:100%;
+	background-size:cover;
+}
+
+#one{
+	float:left;
+	position:relative;
+}
+#two{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+
+}
+#three{
+	
+	margin-top:-45px; /*float:right leaves it misaligned. Why??*/
+
+	float:right;
+	position:relative;
+}
+
+
+
+#score{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+	font-size:2em;
+	text-align:center;
+}
+
+#start{
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	top:10%;
+	width:95px;
+	
+	font-size:1.5em;
+
+	padding:10px;
+	
+	text-align:center;
+	border:1px solid;
+	position:absolute;
+}
+
+#start:hover{
+	cursor:pointer;
+}
+
+#tweet{
+	width:45px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#restart{
+	width:100px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	position:relative;
+	text-align:center;
+	border-bottom:dashed;
+}
+
+#restart:hover{
+	cursor:pointer;
+}
+
+#game_over{
+	width:30%;
+	height:120px;
+	padding:10px;
+	
+	top:13%;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background:white;
+	border:1px solid;
+	position:absolute;
+	display:none;
+}
+
+	 
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+}
+	 
